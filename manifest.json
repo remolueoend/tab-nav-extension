@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
   "name": "tab-nav",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Custom keyboard shortcuts for navigation between tabs.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-nav.browser-extensions.app-id@remolueoend.xyz",
+      "update_url": "https://raw.githubusercontent.com/remolueoend/tab-nav-extension/main/updates.json"
+    }
+  },
   "commands": {
     "goto-prev-tab": {
       "suggested_key": {
